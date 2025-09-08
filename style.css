@@ -1,0 +1,73 @@
+
+header {
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none ;
+    border-left-style: none;
+    border-color: rgba(0, 0, 0, 0.751);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+.capa{
+    display: flex;
+    justify-content: center;
+   }
+.texto {
+    text-align: left;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(white);
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+  }
+.contato {
+  text-align: left;
+  border: 1px solid rgb(255, 255, 255);
+  background-color: rgb(white);
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+u.lista {
+    list-style-type: disc;  
+  }
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+ul li a {
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+html { 
+    background-image: url(fundo2.png);
+  }
+
+body { 
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+  }
+
+  div {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(white);
+    padding-top: 50px;
+    padding-right: 167px;
+    padding-bottom: 50px;
+    padding-left: 175px;
+  }
