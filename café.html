@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Café Kirby Dreamland</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+ <link rel="stylesheet" href="stylecafé.css">
+</head>
+<body>
+
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="café.html">
+            <img src="Logo.jpeg" alt="Avatar Logo" style="width:40px;" class="rounded-pill"> 
+          </a>
+        </div>
+    
+    <div class="container justify-content-center">
+      <a class="navbar-brand" href="café.html">🍓 Café Kirby Dreamland 🍓</a>
+      <button class="navbar-toggler";></button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+          <li class="nav-item"><a class="nav-link" href="#cardapio">Cardápio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+        </ul>
+      </div>
+    </div>
+</nav>
+
+  <div style="height: 70px;"></div>
+
+
+  <div id="carouselExample" class="carousel slide container mt-4 fade-in" data-bs-ride="carousel">
+    <div class="carousel-inner rounded-4">
+      <div class="carousel-item active">
+        <img src="kirbycoffee.jpeg" class="d-block w-40" alt="Café Rosa">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1607082349566-187342175e2a?auto=format&fit=crop&w=1200&q=80" class="d-block w-100" alt="Cupcake Dream">
+      </div>
+      <div class="carousel-item">
+        <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=1200&q=80" class="d-block w-100" alt="Ambiente Mágico">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+
+  
+  <section id="sobre" class="container my-5 text-center fade-in">
+    <h2 class="mb-4"><i class="bi bi-stars icon-decor"></i> Sobre o Café Kirby Dreamland</h2>
+    <p>Bem-vindo ao nosso pedacinho de Dreamland! 🌈☁️ Inspirado no mundo de Kirby, este café é um refúgio doce e acolhedor — onde magia e sabor se encontram em cada gole.</p>
+    <button class="btn btn-custom mt-3" data-bs-toggle="modal" data-bs-target="#modalSobre">Saiba mais</button>
+  </section>
+
+
+  <div class="modal fade" id="modalSobre" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title">História do Café Kirby Dreamland</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+        </div>
+        <div class="modal-body">
+          O Café Kirby Dreamland nasceu para unir o aconchego do Studio Ghibli e a alegria mágica do universo Kirby! 🍓  
+          Cada detalhe foi pensado para transportar você a um mundo de nuvens cor-de-rosa, cheirinho de bolo e cafés encantados.
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section id="cardapio" class="container my-5 fade-in">
+    <h2 class="text-center mb-4"><i class="bi bi-cupcake icon-decor"></i> Nosso Cardápio Mágico</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Kirbydo Amor.jpeg" class="card-img-top" alt="Kirby do Amor">
+          <div class="card-body text-center">
+            <h5 class="card-title">Kirby do Amor</h5>
+            <p class="card-text">Brigadeiro de Ninho com toque de morango e arte em pasta americana inspirada nas estrelas de Kirby.</p>
+            <button class="btn btn-custom">Pedir</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="KirbySanduiche.jpeg" class="card-img-top" alt="Sanduíche Dream">
+          <div class="card-body text-center">
+            <h5 class="card-title">Sanduíche Dream</h5>
+            <p class="card-text">Um Sanduíche leve e saudável, com omelete, molho e um toque de magia do Dreamland.</p>
+            <button class="btn btn-custom">Pedir</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Panquecas.jpeg" class="card-img-top" alt="Panquecas das Nuvens">
+          <div class="card-body text-center">
+            <h5 class="card-title">Panquecas das Nuvens</h5>
+            <p class="card-text">Infusão de flores e frutas suaves, perfeita para relaxar entre coberturas rosadas ☁️.</p>
+            <button class="btn btn-custom">Pedir</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container mt-3">
+    <h2 class="text-center mb-4"><i class="bi bi-cupcake icon-decor"></i> Curiosidades Doces</h2>
+    <div id="accordion">
+      <div class="card">
+        <div class="card-header">
+          <a class="btn" data-bs-toggle="collapse" href="#collapseOne">
+            Collapsible Group Item #1
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-bs-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseTwo">
+          Collapsible Group Item #2
+        </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed btn" data-bs-toggle="collapse" href="#collapseThree">
+            Collapsible Group Item #3
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-bs-parent="#accordion">
+          <div class="card-body">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <section id="contato" class="container my-5 fade-in">
+    <h2 class="text-center mb-4"><i class="bi bi-envelope-heart icon-decor"></i> Reserve sua mesa</h2>
+    <form class="mx-auto" style="max-width: 600px;">
+      <div class="mb-3">
+        <label class="form-label">Nome</label>
+        <input type="text" class="form-control" placeholder="Seu nome completo">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">E-mail</label>
+        <input type="email" class="form-control" placeholder="seuemail@email.com">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Mensagem / Pedido</label>
+        <textarea class="form-control" rows="3" placeholder="Deixe sua mensagem"></textarea>
+      </div>
+      <button type="submit" class="btn btn-custom w-100">Enviar</button>
+    </form>
+  </section>
+
+  <!-- 8. FOOTER -->
+  <footer>
+    <p>© 2025 Café Kirby Dreamland | Um pedacinho de Kirby 🍓☁️</p>
+    <div>
+      <i class="bi bi-instagram"></i>
+      <i class="bi bi-stars"></i>
+      <i class="bi bi-heart-fill"></i>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const fadeElements = document.querySelectorAll('.fade-in');
+    function checkFade() {
+      fadeElements.forEach(el => {
+        const rect = el.getBoundingClientRect();
+        if (rect.top < window.innerHeight - 100) el.classList.add('show');
+      });
+    }
+    window.addEventListener('scroll', checkFade);
+    window.addEventListener('load', checkFade);
+  </script>
+
+</body>
+</html>
